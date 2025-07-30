@@ -5,13 +5,27 @@
 }
 
 .body {
-  display: flex;
-  flex-direction: column;
-  gap: 3em;
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
 	height: 100vh;
+
+	font-family: Inter, serif;
 }
 
+.header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
 
+	margin: 3rem 0;
+}
+
+.main {
+	background-color: rgba(210, 213, 218, 0.1);
+}
 
 .author-info {
 	font-size: 14px;
