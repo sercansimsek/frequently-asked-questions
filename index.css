@@ -11,8 +11,11 @@
 	height: 100vh;
 
 	font-family: Inter, serif;
-}
+	color: #030616;
 
+	width: 640px;
+}
+/* HEADER */
 .header {
 	display: flex;
 	flex-direction: column;
@@ -20,13 +23,54 @@
 	justify-content: center;
 	gap: 1rem;
 
-	margin: 3rem 0;
+	margin: 3rem 3rem 0;
 }
 
+h2, h1 {
+	font-weight: 600;
+}
+
+/* MAIN */
 .main {
+	display: flex;
+	flex-direction: column;
+	gap: 2.25rem;
 	background-color: rgba(210, 213, 218, 0.1);
+
+	padding: 3rem;
 }
 
+.main_track-order {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+
+.main_track-order_list {
+	display: flex;
+	flex-direction: column;
+	gap: 0.75rem;
+}
+
+a {
+	text-decoration: none;
+	color: #4E80EE;
+}
+
+.main_return-policy {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+
+.main_return-policy_list {
+	display: flex;
+	flex-direction: column;
+	gap: 0.75rem;
+
+}
+
+/* FOOTER */
 .author-info {
 	font-size: 14px;
 	text-align: center;
