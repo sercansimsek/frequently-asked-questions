@@ -32,7 +32,7 @@
 - [Built with](#built-with)
 - [Features](#features)
 - [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
+
 
 <!-- OVERVIEW -->
 
@@ -53,10 +53,9 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 ### Useful resources
 
-<!--
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
--->
+
+- [resource 1](https://stackoverflow.com/questions/17391575/how-to-align-my-ordered-list-items-with-a-p-element) - This helped me to align list elements with the related content of its. I really liked this pattern and will use it going forward.
+
 
 ### Built with
 
@@ -65,7 +64,6 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 
 
 ## Features
@@ -74,11 +72,6 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges-dashboard) challenge.
 
-## Acknowledgements
-
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
 
 ## Author
-
-- Website [your-website.com](https://{your-web-site-link})
 - GitHub [@sercansimsek](https://github.com/sercansimsek)
