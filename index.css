@@ -7,13 +7,10 @@
 .body {
 	display: flex;
 	flex-direction: column;
-	gap: 3rem;
 	height: 100vh;
 
 	font-family: Inter, serif;
 	color: #030616;
-
-	width: 640px;
 }
 /* HEADER */
 .header {
@@ -23,10 +20,11 @@
 	justify-content: center;
 	gap: 1rem;
 
-	margin: 3rem 3rem 0;
+	margin: 4rem 0;
 }
 
-h2, h1 {
+h2,
+h1 {
 	font-weight: 600;
 }
 
@@ -36,38 +34,56 @@ h2, h1 {
 	flex-direction: column;
 	gap: 2.25rem;
 	background-color: rgba(210, 213, 218, 0.1);
-
-	padding: 3rem;
 }
 
 .main_track-order {
 	display: flex;
 	flex-direction: column;
 	gap: 1.5rem;
+	padding: 4rem 1.25rem 0 1.75rem;
 }
 
 .main_track-order_list {
 	display: flex;
 	flex-direction: column;
-	gap: 0.75rem;
+
+	font-weight: 400;
+	font-size: 1rem;
+	line-height: 2rem;
 }
 
 a {
 	text-decoration: none;
-	color: #4E80EE;
+	color: #4e80ee;
+}
+
+ol,
+ul {
+	padding-left: 0;
+	list-style-position: inside;
+}
+
+p {
+	font-weight: 400;
+	font-size: 1rem;
+	line-height: 2rem;
+	margin-left: -0.25rem;
 }
 
 .main_return-policy {
 	display: flex;
 	flex-direction: column;
 	gap: 1.5rem;
+	padding: 0 1.25rem 4rem 1.75rem;
 }
 
 .main_return-policy_list {
 	display: flex;
 	flex-direction: column;
-	gap: 0.75rem;
 
+	font-weight: 400;
+	font-size: 1rem;
+	line-height: 2rem;
 }
 
 /* FOOTER */
