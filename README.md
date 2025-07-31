@@ -49,12 +49,13 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 ### What I learned
 
-<!-- Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge. -->
+- Responsive design fundamentals, media queries
+- CSS Flexbox 
 
 ### Useful resources
 
 
-- [resource 1](https://stackoverflow.com/questions/17391575/how-to-align-my-ordered-list-items-with-a-p-element) - This helped me to align list elements with the related content of its. I really liked this pattern and will use it going forward.
+- [stack overflow](https://stackoverflow.com/questions/17391575/how-to-align-my-ordered-list-items-with-a-p-element) - This helped me to align list elements with the related content of its. I really liked this pattern and will use it going forward.
 
 
 ### Built with
