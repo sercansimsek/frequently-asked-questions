@@ -40,7 +40,7 @@ h1 {
 	display: flex;
 	flex-direction: column;
 	gap: 1.5rem;
-	padding: 4rem 1.25rem 0 1.75rem;
+	padding: 4rem 0 0 1.75rem;
 }
 
 .main_track-order_list {
@@ -96,4 +96,28 @@ p {
 
 .author-info a {
 	text-decoration: none;
+}
+
+hr {
+	text-align: center;
+}
+
+@media screen and (min-width: 641px) and (max-width: 1024px) {
+	.main_track-order {
+		padding: 4rem 10.25rem 0 13.5rem;
+	}
+
+	.main_return-policy {
+		padding: 0 10.25rem 4rem 13.5rem;
+	}
+}
+
+@media  screen and (min-width: 1025px) {
+	.main_track-order {
+		padding: 4rem 20.25rem 0 23.5rem;
+	}
+
+		.main_return-policy {
+		padding: 0 20.25rem 4rem 23.5rem;
+	}
 }
